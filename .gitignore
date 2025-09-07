@@ -1,0 +1,92 @@
+# Environment variables file - CRITICAL to exclude
+.env
+
+# API keys and sensitive configuration
+*.key
+*.pem
+config.py
+secrets.py
+credentials.json
+
+# User-specific files
+todo_list.json
+user_preferences.json
+session_data.json
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.codes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Notes directory (if you want to exclude user-created notes)
+notes/
+
+# Temporary files
+temp/
+tmp/
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Package manager files
+ Pipfile
+ Pipfile.lock
+ poetry.lock
+ pyproject.toml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# Testing coverage
+.coverage
+htmlcov/
+.pytest_cache/
